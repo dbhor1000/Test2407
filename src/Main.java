@@ -8,7 +8,7 @@ public class Main {
         HashMap<KeyClass, String> map = new HashMap<>(16, 0.75f); // 16 buckets
 
         // Create a custom key with a specific hash code
-        KeyClass key = new KeyClass(9); // This will go to bucket 7
+        KeyClass key = new KeyClass(9); // This will go to bucket = value, according to the HashCode function in KeyClass.
 
         // Put the key-value pair in the map
         map.put(key, "Value");
